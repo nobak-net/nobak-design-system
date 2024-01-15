@@ -1,0 +1,303 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+/*
+ * The Typekit service used to deliver this font or fonts for use on websites
+ * is provided by Adobe and is subject to these Terms of Use
+ * http://www.adobe.com/products/eulas/tou_typekit. For font license
+ * information, see the list below.
+ *
+ * arboria:
+ *   - http://typekit.com/eulas/00000000000000003b9b011a
+ *   - http://typekit.com/eulas/00000000000000003b9b011c
+ *   - http://typekit.com/eulas/00000000000000003b9b011d
+ *   - http://typekit.com/eulas/00000000000000003b9b011e
+ *   - http://typekit.com/eulas/00000000000000003b9b011f
+ *   - http://typekit.com/eulas/00000000000000003b9b0120
+ *   - http://typekit.com/eulas/00000000000000003b9b0121
+ *   - http://typekit.com/eulas/00000000000000003b9b0122
+ *   - http://typekit.com/eulas/00000000000000003b9b0123
+ *
+ * © 2009-2023 Adobe Systems Incorporated. All Rights Reserved.
+ */
+/*{"last_published":"2023-08-01 02:18:15 UTC"}*/
+
+@import url("https://p.typekit.net/p.css?s=1&k=vmt3skp&ht=tk&f=34860.34862.34863.34864.34865.34866.34867.34868.34869&a=46063616&app=typekit&e=css");
+
+@font-face {
+font-family:"arboria";
+src:url("https://use.typekit.net/af/8ad5fe/00000000000000003b9b011a/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff2"),url("https://use.typekit.net/af/8ad5fe/00000000000000003b9b011a/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff"),url("https://use.typekit.net/af/8ad5fe/00000000000000003b9b011a/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:300;font-stretch:normal;
+}
+
+@font-face {
+font-family:"arboria";
+src:url("https://use.typekit.net/af/2ed003/00000000000000003b9b011c/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff2"),url("https://use.typekit.net/af/2ed003/00000000000000003b9b011c/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff"),url("https://use.typekit.net/af/2ed003/00000000000000003b9b011c/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"arboria";
+src:url("https://use.typekit.net/af/f350ae/00000000000000003b9b011d/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/f350ae/00000000000000003b9b011d/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/f350ae/00000000000000003b9b011d/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"arboria";
+src:url("https://use.typekit.net/af/69ac60/00000000000000003b9b011e/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("woff2"),url("https://use.typekit.net/af/69ac60/00000000000000003b9b011e/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("woff"),url("https://use.typekit.net/af/69ac60/00000000000000003b9b011e/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:500;font-stretch:normal;
+}
+
+@font-face {
+font-family:"arboria";
+src:url("https://use.typekit.net/af/f89c37/00000000000000003b9b011f/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i5&v=3") format("woff2"),url("https://use.typekit.net/af/f89c37/00000000000000003b9b011f/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i5&v=3") format("woff"),url("https://use.typekit.net/af/f89c37/00000000000000003b9b011f/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i5&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:500;font-stretch:normal;
+}
+
+@font-face {
+font-family:"arboria";
+src:url("https://use.typekit.net/af/7c0289/00000000000000003b9b0120/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/7c0289/00000000000000003b9b0120/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/7c0289/00000000000000003b9b0120/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"arboria";
+src:url("https://use.typekit.net/af/1f8fa9/00000000000000003b9b0121/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff2"),url("https://use.typekit.net/af/1f8fa9/00000000000000003b9b0121/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff"),url("https://use.typekit.net/af/1f8fa9/00000000000000003b9b0121/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"arboria";
+src:url("https://use.typekit.net/af/1ad443/00000000000000003b9b0122/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3") format("woff2"),url("https://use.typekit.net/af/1ad443/00000000000000003b9b0122/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3") format("woff"),url("https://use.typekit.net/af/1ad443/00000000000000003b9b0122/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:900;font-stretch:normal;
+}
+
+@font-face {
+font-family:"arboria";
+src:url("https://use.typekit.net/af/fce9bd/00000000000000003b9b0123/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i9&v=3") format("woff2"),url("https://use.typekit.net/af/fce9bd/00000000000000003b9b0123/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i9&v=3") format("woff"),url("https://use.typekit.net/af/fce9bd/00000000000000003b9b0123/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i9&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:900;font-stretch:normal;
+}
+
+.tk-arboria { font-family: "arboria",sans-serif; }
+
+
+
+
+@layer base {
+  
+  .text-display-bold {
+    @apply text-[72.2px] font-bold;
+  }
+  .text-display-semi-bold {
+    @apply text-[72.2px] font-semibold;
+  }
+  .text-display-extra-bold {
+    @apply text-[72.2px] font-extrabold;
+  }
+
+  .text-h1-bold {
+    @apply text-[60.2px] font-bold;
+  }
+  .text-h1-semi-bold {
+    @apply text-[60.2px] font-semibold;
+  }
+  .text-h1-extra-bold {
+    @apply text-[60.2px] font-extrabold;
+  }
+
+  .text-h2-bold {
+    @apply text-[41.8px] font-bold;
+  }
+  .text-h2-semi-bold {
+    @apply text-[41.8px] font-semibold;
+  }
+  .text-h2-extra-bold {
+    @apply text-[41.8px] font-extrabold;
+  }
+
+  .text-h3-bold {
+    @apply text-[34.8px] font-bold;
+  }
+  .text-h3-semi-bold {
+    @apply text-[34.8px] font-semibold;
+  }
+  .text-h3-extra-bold {
+    @apply text-[34.8px] font-extrabold;
+  }
+
+  .text-h4-bold {
+    @apply text-[29px] font-bold;
+  }
+  .text-h4-semi-bold {
+    @apply text-[29px] font-semibold;
+  }
+  .text-h4-extra-bold {
+    @apply text-[29px] font-extrabold;
+  }
+
+  .text-subheading-medium {
+    @apply text-[24.2px] font-medium;
+  }
+  .text-subheading-bold {
+    @apply text-[24.2px] font-bold;
+  }
+  .text-subheading-underlined {
+    @apply text-[24.2px] underline;
+  }
+  .text-subheading-light {
+    @apply text-[24.2px] font-light;
+  }
+
+
+  .text-p1-medium {
+    @apply text-[20.2px] font-medium;
+  }
+  .text-p1-bold {
+    @apply text-[20.2px] font-bold;
+  }
+  .text-p1-underlined {
+    @apply text-[20.2px] underline;
+  }
+  .text-p1-light {
+    @apply text-[20.2px] font-light;
+  }
+
+  .text-p2-medium {
+    @apply text-[16.8px] font-medium;
+  }
+  .text-p2-bold {
+    @apply text-[16.8px] font-bold;
+  }
+  .text-p2-underlined {
+    @apply text-[16.8px] underline;
+  }
+  .text-p2-light {
+    @apply text-[16.8px] font-light;
+  }
+
+  .text-p3-medium {
+    @apply text-[14px] font-medium;
+  }
+  .text-p3-bold {
+    @apply text-[14px] font-bold;
+  }
+  .text-p3-underlined {
+    @apply text-[14px] underline;
+  }
+  .text-p3-light {
+    @apply text-[14px] font-light;
+  }
+
+  .text-caption-medium {
+    @apply text-[11.7px] font-medium;
+  }
+  .text-caption-bold {
+    @apply text-[11.7px] font-bold;
+  }
+  .text-caption-underlined {
+    @apply text-[11.7px] underline;
+  }
+  .text-caption-light {
+    @apply text-[11.7px] font-light;
+  }
+  .text-caption-bold-underlined {
+    @apply text-[11.7px] font-bold underline;
+  }
+
+  .text-footer-medium {
+    @apply text-[9.7px] font-medium;
+  }
+  .text-footer-bold {
+    @apply text-[9.7px] font-bold;
+  }
+  .text-footer-underlined {
+    @apply text-[9.7px] underline;
+  }
+  .text-footer-light {
+    @apply text-[9.7px] font-light;
+  }
+  .text-footer-bold-underlined {
+    @apply text-[9.7px] font-bold underline;
+  }
+
+
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "arboria";
+}
+
+@keyframes play-hero {
+	0% {
+		transform: rotateX(45deg) translateY(-50%);
+	}
+	100% {
+		transform: rotateX(45deg) translateY(0);
+	}
+}
+
+a[disabled] {
+  pointer-events: none;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+.scrollbar-none {
+  scrollbar-width: none;
+}
+
+.bt-primary-default {
+  background-image: linear-gradient(90deg, #DADEF3 0%, #CBD4DC 99.7%)
+}
+
+.bt-secondary-default {
+  background-image: linear-gradient(270deg, #717E8B 0.49%, #626D79 98.93%);
+}
+
+.bt-neutral-default {
+  background-image: linear-gradient(270deg, #E0E3E6 0.3%, #DADEF3 100%)
+}
+
+.light {
+  --color-primary-100: #E6E6E7;
+  --color-primary-200: #E0E3E6;
+  --color-primary-300: #DADEF3;
+  --color-primary-400: #D3DAE1;
+  --color-primary-500: #CBD4DC;
+  --color-primary-600: #C2CCD5;
+  --color-primary-700: #BAC5D1;
+  --color-primary-800: #ADBBC8;
+  --color-primary-900: #A1AEBD;
+  --color-primary-1000: #93A0AF;
+  --color-primary-1100: #8390A0;
+  --color-primary-1200: #717E8B;
+  --color-primary-1300: #626D79;
+  --color-primary-1400: #505A64;
+  --color-primary-1500: #424A52;
+  --color-primary-1600: #343B41;
+  --color-primary-1700: #2A2F35;
+  --color-primary-1800: #212428;
+  --color-primary-1900: #1A1D1F;
+  --color-primary-2000: #121416;
+  --color-primary-2100: #101012;
+  --color-primary-2200: #0C0C0D;
+  --color-primary-2300: #0A0A0B;
+  --color-primary-2400: #080909;
+  --color-primary-2500: #080809;
+  --color-primary-2600: #070707;
+  --color-primary-2700: #070707;
+}
+
+
+.midnight {
+
+}

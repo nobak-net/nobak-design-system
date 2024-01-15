@@ -1,0 +1,210 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 2
+    },
+    {
+      "createdAt": 1691011953652,
+      "id": 3
+    },
+    {
+      "createdAt": 1691011997926,
+      "status": 200,
+      "id": 4
+    },
+    {
+      "0": {
+        "id": "id",
+        "value": ""
+      },
+      "1": {
+        "id": "description",
+        "value": "j"
+      },
+      "createdAt": 1691012210766,
+      "status": 200,
+      "id": 5
+    },
+    {
+      "0": {
+        "id": "id",
+        "value": ""
+      },
+      "1": {
+        "id": "description",
+        "value": "j"
+      },
+      "createdAt": 1691012420579,
+      "status": 200,
+      "id": 6
+    },
+    {
+      "0": {
+        "id": "id",
+        "value": ""
+      },
+      "1": {
+        "id": "description",
+        "value": ""
+      },
+      "createdAt": 1691012426063,
+      "status": 200,
+      "id": 7
+    },
+    {
+      "0": {
+        "id": "id",
+        "value": ""
+      },
+      "1": {
+        "id": "description",
+        "value": ""
+      },
+      "createdAt": 1691012429828,
+      "status": 200,
+      "id": 8
+    },
+    {
+      "0": {
+        "id": "id",
+        "value": ""
+      },
+      "1": {
+        "id": "description",
+        "value": ""
+      },
+      "createdAt": 1691012441628,
+      "status": 200,
+      "id": 9
+    },
+    {
+      "0": {
+        "id": "id",
+        "value": ""
+      },
+      "1": {
+        "id": "description",
+        "value": ""
+      },
+      "createdAt": 1694124910047,
+      "status": 200,
+      "id": 10
+    },
+    {
+      "0": {
+        "id": "id",
+        "value": ""
+      },
+      "1": {
+        "id": "description",
+        "value": "sadas"
+      },
+      "createdAt": 1694124935146,
+      "status": 200,
+      "id": 11
+    },
+    {
+      "0": {
+        "id": "id",
+        "value": ""
+      },
+      "1": {
+        "id": "description",
+        "value": ""
+      },
+      "createdAt": 1694711699508,
+      "status": 200,
+      "id": 12
+    },
+    {
+      "0": {
+        "id": "id",
+        "value": ""
+      },
+      "1": {
+        "id": "description",
+        "value": ""
+      },
+      "createdAt": 1694718074285,
+      "status": 200,
+      "id": 13
+    },
+    {
+      "0": {
+        "id": "id",
+        "value": ""
+      },
+      "1": {
+        "id": "description",
+        "value": ""
+      },
+      "createdAt": 1694718119119,
+      "status": 200,
+      "id": 14
+    },
+    {
+      "0": {
+        "id": "id",
+        "value": ""
+      },
+      "1": {
+        "id": "description",
+        "value": ""
+      },
+      "createdAt": 1694718161432,
+      "status": 200,
+      "id": 15
+    },
+    {
+      "0": {
+        "id": "id",
+        "value": ""
+      },
+      "1": {
+        "id": "description",
+        "value": "test"
+      },
+      "createdAt": 1694718325853,
+      "status": 200,
+      "id": 16
+    },
+    {
+      "0": {
+        "id": "id",
+        "value": ""
+      },
+      "1": {
+        "id": "description",
+        "value": "test"
+      },
+      "createdAt": 1694718465309,
+      "status": 200,
+      "id": 17
+    },
+    {
+      "createdAt": 1697542941272,
+      "status": 200,
+      "id": 18
+    },
+    {
+      "createdAt": 1697542944489,
+      "status": 200,
+      "id": 19
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "name": "nobak-design-system",
+  "description": "design system for Nobak",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Nobak/nobak-design-system"
+  },
+  "author": "Julian Clatro <hola@julianclatro.com> (https://hacksur.com)",
+  "contributors": [
+    "Julian Clatro <hola@julianclatro.com> (https://hacksur.com)"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
+    "lint": "npm run lint:js && npm run lint:md",
+    "build": "babel src --out-dir lib --extensions '.ts,.tsx'",
+    "lint:js": "xo",
+    "lint:md": "remark . -qfo",
+    "pretest": "npm run lint",
+    "clean": "rm -rf lib",
+    "webpack": "webpack --mode production",
+    "storybook": "sb dev dev -p 6006",
+    "build-storybook": "cross-env NODE_ENV=production sb build",
+    "tailwind:dev": "cross-env NODE_ENV=development tailwindcss build -i styles/main.css -o styles/index.css -c tailwind.config.js",
+    "tailwind:build": "cross-env NODE_ENV=production tailwindcss build -i styles/main.css -o styles/index.css -c tailwind.config.js",
+    "watch-tailwind": "npx tailwindcss -i styles/main.css -o styles/index.css -c tailwind.config.js --watch",
+    "watch-build": "babel src --watch --out-dir lib --extensions '.ts,.tsx'",
+    "watch-storybook": "sb dev dev --ci -h 0.0.0.0 -p 6006",
+    "watch-server": "node server.js",
+    "dev": "concurrently 'npm:watch-*'",
+    "production": "npm run clean && npm run tailwind:build && npm run build"
+  },
+  "keywords": [
+    "nobak-design-system",
+    "lass"
+  ],
+  "dependencies": {
+    "@emotion/is-prop-valid": "latest",
+    "@h6s/calendar": "latest",
+    "@headlessui-float/react": "^0.8.0",
+    "@headlessui/react": "latest",
+    "ahooks": "latest",
+    "clsx": "^1.2.1",
+    "date-fns": "latest",
+    "dayzed": "latest",
+    "framer-motion": "^6.5.1",
+    "luxon": "^3.3.0",
+    "qrcode-generator": "1.4.1",
+    "rci": "latest",
+    "storybook-dark-mode": "^3.0.1",
+    "use-is-focused": "latest"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.21.5",
+    "@babel/core": "latest",
+    "@babel/preset-env": "^7.22.4",
+    "@babel/preset-react": "latest",
+    "@babel/preset-typescript": "^7.21.5",
+    "@commitlint/cli": "latest",
+    "@commitlint/config-conventional": "latest",
+    "@storybook/addon-actions": "7.5.1",
+    "@storybook/addon-essentials": "7.5.1",
+    "@storybook/addon-links": "7.5.1",
+    "@storybook/react": "7.5.1",
+    "@storybook/react-webpack5": "7.5.1",
+    "@tailwindcss/aspect-ratio": "latest",
+    "@tailwindcss/forms": "latest",
+    "@tailwindcss/line-clamp": "latest",
+    "@tailwindcss/typography": "latest",
+    "@types/luxon": "latest",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@typescript-eslint/eslint-plugin": "latest",
+    "@typescript-eslint/parser": "latest",
+    "autoprefixer": "latest",
+    "babel-loader": "latest",
+    "babel-plugin-module-resolver": "^5.0.0",
+    "babel-plugin-transform-inline-environment-variables": "^0.4.4",
+    "codecov": "latest",
+    "concurrently": "latest",
+    "cross-env": "^7.0.3",
+    "crypto-browserify": "^3.12.0",
+    "dotenv": "^16.1.2",
+    "eslint": "latest",
+    "eslint-config-xo-lass": "latest",
+    "eslint-config-xo-react": "latest",
+    "eslint-config-xo-typescript": "latest",
+    "fixpack": "latest",
+    "husky": "latest",
+    "json-server": "^0.17.3",
+    "lint-staged": "latest",
+    "lunarphase-js": "latest",
+    "nyc": "latest",
+    "pm2": "latest",
+    "postcss": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-use": "latest",
+    "remark-cli": "^9.0.0",
+    "remark-preset-github": "latest",
+    "storybook": "7.5.1",
+    "tailwindcss": "^3.2.4",
+    "ts-loader": "latest",
+    "typescript": "latest",
+    "webpack": "latest",
+    "webpack-cli": "latest",
+    "xo": "latest"
+  },
+  "peerDependencies": {
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "engines": {
+    "node": ">= 10"
+  },
+  "bugs": {
+    "url": "https://github.com/Nobak/nobak-design-system/issues",
+    "email": "hola@julianclatro.com"
+  },
+  "xo": {
+    "prettier": true,
+    "space": true,
+    "extends": [
+      "xo-lass",
+      "xo-react",
+      "xo-typescript"
+    ],
+    "parserOptions": {
+      "ecmaVersion": 2021,
+      "sourceType": "module"
+    },
+    "webpack": true
+  },
+  "homepage": "https://github.com/Nobak/nobak-design-system",
+  "volta": {
+    "node": "18.18.2"
+  }
+}
