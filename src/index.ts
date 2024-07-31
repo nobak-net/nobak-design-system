@@ -38,9 +38,9 @@ export {
   Uploader,
   Slider,
   Sidebar,
-  Tooltip,
   QRCode
 } from './shared/components';
+//   Tooltip
 export {
   type itemsNavigationProps,
 } from './shared/types';
@@ -48,23 +48,6 @@ export {
   type FieldProps
 } from './shared/components/Form'
 export {
-  Frame,
-  Logo,
-  CardComponent,
-  WalkthroughComponent,
-  GuildBannerComponent,
-  LayoutComponent,
-  PollBarComponent,
-  ProgressBarComponent,
-  TipsComponent,
-  useWalkthrough
+  RisingSun,
+  MenuBar
 } from './components';
-export {
-  AdminHeader,
-} from './composables';
-export {
-  ClaimKey,
-  ConnectWallet,
-  Settings,
-  Home
-} from './templates'
