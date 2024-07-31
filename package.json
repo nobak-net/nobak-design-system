@@ -1,7 +1,7 @@
 {
   "name": "nobak-design-system",
   "description": "design system for Nobak",
-  "version": "0.0.1-4edea098dbcf",
+  "version": "0.0.1-62fe709d99c2",
   "main": "lib/index.js",
   "repository": {
     "type": "git",
